@@ -1,0 +1,7 @@
+{
+    "AppSettings": {
+        "AppName": "swaggerGenerator",
+        "DataDirectory": "/data/",
+        "TempDirectory": "/temp/"
+    }
+}

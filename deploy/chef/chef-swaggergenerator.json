@@ -1,0 +1,40 @@
+{
+    "appsgroup": "cluster1aspnetcore",
+    "app": {
+    	"version": "",
+    	"artifact": "",
+        "port": "51003",
+        "appname": "swaggerGenerator",
+        "datadirectory": "/data/",
+        "tempdirectory": "/temp/",
+        "apiroot": {
+            "uri": {
+                "scheme": "http://",
+                "host": "swaggergenerator-o.antwerpen.be",
+                "port": "51003",
+                "path": "/"
+            }
+        },
+        "uiroot": {
+            "uri": {
+                "scheme": "http://",
+                "host": "swaggergenerator-o.antwerpen.be",
+                "port": "51003",
+                "path": "/ui/"
+            }
+        }
+    },
+    "db": {
+        "postgresql": {
+            "connection": {
+                "host": "swaggergenerator-sql1-o.antwerpen.be",
+                "port": "ppppp",
+                "name": "swaggergenerator"
+            },
+            "auth": {
+                "userid": "swaggergenerator_o",
+                "password": "pwd"
+            }
+        }
+    }
+}
